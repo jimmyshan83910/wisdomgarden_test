@@ -1,7 +1,7 @@
 from datetime import datetime
 
 
-class test_variable:
+class TestVariable:
     match_item = "ipad"
     match_item_category = "electronic"
     convert_str_to_datetime = "2022.03.01"
