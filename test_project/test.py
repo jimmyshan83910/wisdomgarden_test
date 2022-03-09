@@ -4,7 +4,7 @@ from variable import TestVariable
 import datetime
 
 
-class TestStringMethods(unittest.TestCase):
+class TestShoppingCart(unittest.TestCase):
     def test_match_item_category(self):
         Schema(str).validate(TestVariable.match_item)
         Schema(str).validate(TestVariable.match_item_category)
